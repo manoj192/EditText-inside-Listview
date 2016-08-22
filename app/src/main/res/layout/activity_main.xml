@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edittext_inside_listview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/viewedit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:hint="Sample input"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
